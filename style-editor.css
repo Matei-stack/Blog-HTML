@@ -1,0 +1,268 @@
+/* Editor */
+
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Background  */
+
+.background1 {
+
+    background-color: rgba(215, 237, 225, 255);
+    height: 1500px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+.background2 {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 255);
+    top: 200px;
+    left: 200px;
+    right: 200px;
+    bottom: 200px;
+    border-radius: 20px;
+    height:1000px;
+}
+
+.background3 {
+    position: absolute;
+    background-color: rgba(255, 229, 182, 255);
+    top: 0px;
+    left: 100px;
+    right: 300px;
+    bottom: 0px;
+    height:1000px;
+}
+
+.background4 {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 255);
+    top: 100px;
+    left: 100px;
+    right: 100px;
+    bottom: 100px;
+    border-radius: 20px;
+    height:800px;
+}
+
+.logo {
+    position: absolute;
+    top: -10px;
+    border: 2px solid rgb(196, 194, 196);
+    border-top: white;
+    border-left: white;
+    border-right: white;
+    padding: 30px 10px;
+
+}
+
+.icons-right {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    top: 120px;
+    left: 35px;
+    display: grid;
+    align-items: space-evely;
+    line-height: 30px;
+}
+
+.avatar {
+    position:absolute;
+    border-radius: 50%;
+    width: 4%;
+    display: inline-block;
+    vertical-align: top;
+    left:20px;
+    bottom:20px;
+}
+/* Publish button */
+
+.publish{
+    position:absolute;
+    right: 100px;
+    top:100px;
+    border: 1px solid rgba(105,213,154,255);
+    background-color: rgba(105,213,154,255);
+    border-radius: 5px;
+    padding:0px 50px;
+    cursor:pointer;
+    color:white;
+    
+}
+
+/* Language menu  */
+
+.lang-menu{
+    position:absolute;
+    left:100px;
+    top:25px;
+    background-color: rgba(255, 229, 182, 255);
+    cursor:pointer;
+    border:3px solid rgba(248,215,129,255);
+    border-right: rgba(255, 229, 182, 255);
+    border-top: rgba(255, 229, 182, 255);
+    border-left: rgba(255, 229, 182, 255);
+}
+
+.selected-lang{
+    cursor:pointer;
+    display:flex;
+}
+.selected-lang:before{
+    content: '';
+    display:block;
+    width: 20px;
+    height:32px;
+}
+
+.lang-menu ul{
+    margin:0;
+    padding:0;
+    background-color:white;
+    border:1px solid #f8f8f8;
+    box-shadow:0px 1px 10px rgba(0, 0, 0, 0.2);
+    position:absolute;
+   z-index:1;
+    border-radius: 5px;
+    display: none;
+}
+.lang-menu ul li{
+    list-style:none;
+}
+
+.lang-menu ul li a{
+    position:relative;
+    width:100px;
+    display: block;
+    left:-30px;
+}
+.lang-menu ul li a:before{
+    content: '';
+    display:inline-block;
+    width: 20px;
+    height:32px;
+    margin-right: 0px;
+   
+}
+
+
+.lang-menu ul li a:hover{
+    background-color:f2f2f2;
+}
+
+.lang-menu:hover ul{
+    display:block;
+}
+
+/* Import button  */
+
+.import i{
+    position: absolute;
+    left:870px;
+    top:38.5px;
+    border: 1px solid rgba(255,237,204,255);
+    background-color: rgba(255,237,204,255);
+    border-radius: 5px 0px 0px 5px;
+    padding:6px;
+    
+}
+.import h3{
+    position: absolute;
+    left:900px;
+    top:20px;
+    border: 1px solid rgba(255,237,204,255);
+    background-color: rgba(255,237,204,255);
+    border-radius: 0px 5px 5px 0px;
+    padding:5px;
+    cursor:pointer;
+}
+
+/* Tabs */
+
+.tab{
+    position: relative;
+    overflow: hidden;
+    background-color: #ffffff;
+    border: 2px solid rgb(196, 194, 196);
+    border-top: white;
+    border-left: white;
+    border-right: white;
+    top:30px;
+    padding-left:350px;
+  
+}
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size:large;
+    font-weight: bold;
+  }
+
+  .tab button.active {
+    border:3px solid (255,237,204,255);
+    border-top: white;
+    border-left: white;
+    border-right: white;
+  }
+
+  /* Article title/body  */
+
+  .title-add{
+    position:absolute;
+    left:60px;  
+    top:150px;
+    order:1px solid white;
+  }
+
+  .art-title-add{
+    border:1px solid white;
+    font-size:30px;
+  }
+  .art-title-add:focus{
+    outline:none !important;
+  }
+  .body-add{
+    position:absolute;
+    left:60px;  
+    top:250px;
+    order:1px solid white;
+  }
+
+  .art-body-add{
+    border:1px solid white;
+    font-size:20px;
+    resize: none;
+
+  }
+  .art-body-add:focus{
+    outline:none !important;
+  }
+
+  .summary-add{
+    position: relative;
+    border: 2px solid rgb(196, 194, 196);
+    border-bottom: white;
+    border-left: white;
+    border-right: white;
+    top:550px;
+    padding-left:40px;
+
+  }
+  
+
+
+

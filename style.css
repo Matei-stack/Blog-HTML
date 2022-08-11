@@ -1,0 +1,698 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+
+/* Header */
+
+.header {
+
+    display: left;
+    align-items: left;
+    justify-content: space-between;
+    padding: 1.5rem 3%;
+    position: absolute;
+    top: 0;
+    left: 15;
+    right: 255;
+    z-index: 999;
+    padding-right: 20px
+}
+
+.header img {
+    left: 3%;
+}
+
+.header .icons a {
+    position: relative;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 2rem;
+    margin-left: 0rem;
+    padding: 1.5rem 3%;
+    display: grid;
+    align-items: space-evely;
+    top: 50px;
+}
+#home-btn:focus {
+    background-color:blue;
+}
+
+.header .icons2 div {
+    position: relative;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 2rem;
+    margin-left: 0rem;
+    top: 890px;
+    padding: 1.5rem 7%;
+
+    display: grid;
+    align-items: space-evely;
+}
+
+/* Borders */
+
+.borders .vertical {
+    border-left: 1px solid rgb(223, 223, 223);
+    height: 1500px;
+    position: absolute;
+    left: 8%;
+    top: 0%;
+
+}
+
+.borders .vertical2 {
+    border-left: 1px solid rgb(223, 223, 223);
+    height: 1500px;
+    position: absolute;
+    right: 26%;
+    top: 0%;
+}
+
+.borders .horizontal {
+    border-bottom: 1px solid rgb(223, 223, 223);
+    padding-bottom: 8%;
+    position: absolute;
+    align-items: center;
+    right: 29%;
+    left: 11%;
+}
+
+.borders .horizontal2 {
+    border-bottom: 1px solid rgb(223, 223, 223);
+    top: 510px;
+    position: absolute;
+    align-items: center;
+    right: 5.3%;
+    left: 76%;
+
+}
+
+.borders .horizontal3 {
+    border-bottom: 1px solid rgb(223, 223, 223);
+    top: 500px;
+    position: absolute;
+    align-items: center;
+    right: 0%;
+    left: 0%;
+
+}
+
+/* Search bar */
+
+.wrap {
+    position: absolute;
+    width: 30%;
+    top: 6%;
+    left: 10%;
+    display: inline;
+    align-items: center;
+
+}
+
+.search {
+    width: 40%;
+    position: absolute;
+    top: -40px;
+}
+
+.searchbar {
+    float: left;
+    width: 150%;
+    max-width: 500px;
+    background: white;
+    display: flex;
+    align-items: center;
+    border-radius: 60px 0px 0px 60px;
+    padding: 21.4px 25px;
+    border: 1px solid rgb(223, 223, 223);
+    border-right: white;
+
+
+}
+
+.searchbtn {
+    position: absolute;
+    border-radius: 0px 60px 60px 0px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgb(223, 223, 223);
+    background: white;
+    cursor: pointer;
+    border-left: white;
+
+}
+
+/* Icons-> right */
+
+.icon {
+    position: absolute;
+    margin-left: 55%;
+    top: 4%;
+    left: 200px;
+    right: 0;
+    display: left;
+    align-items: space-evely;
+    cursor: pointer;
+
+
+}
+
+/* News */
+
+.image {
+    position: absolute;
+    float: right;
+    padding: 0px 0px 20px 20px;
+    left: 38%;
+}
+
+
+.news .row .content {
+    position: relative;
+    /* flex: 1; */
+    padding: 1em;
+}
+
+.news .row .content h3 {
+    font-size: 3rem;
+    color: #fff;
+}
+
+.news .row .content p {
+    font-size: 1rem;
+    color: #ccc;
+    padding-top: -20px;
+    /* padding: 9.5px; */
+    line-height: 1.6;
+}
+
+.news .row {
+
+    align-items: center;
+    background: black;
+    flex-wrap: wrap;
+    margin-left: 12%;
+    margin-right: 35%;
+    margin-bottom: -30px;
+
+
+}
+
+.heading {
+    text-align: left;
+    color: black;
+    padding-bottom: 2rem;
+    padding-top: 9rem;
+    margin-left: 2%;
+    font-size: 2rem;
+    padding-left: 10%;
+
+}
+
+.news .row .btn-read {
+    position: relative;
+    margin-left: 17%;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 60px;
+    border-color: #fff;
+    color: black;
+    background: white;
+    cursor: pointer;
+
+}
+
+.btn-view {
+    position: relative;
+    left: 40%;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 60px;
+    border: 1px solid rgb(223, 223, 223);
+    background: white;
+    cursor: pointer;
+}
+
+/*Topic-buttons*/
+.heading1 {
+    text-align: left;
+    color: black;
+    padding-bottom: 2rem;
+    padding-top: 4rem;
+    margin-left: 2%;
+    font-size: 2rem;
+    padding-left: 10%;
+}
+
+.tab {
+    position: relative;
+    left: 200px;
+    overflow: hidden;
+}
+.tabcontent {
+    display: none;
+   
+}
+
+#btn-design:focus {
+    background-color: black;
+    color: white;
+}
+
+#btn-blockchain:focus {
+    background-color: black;
+    color: white;
+}
+
+#btn-crypto:focus {
+    background-color: black;
+    color: white;
+}
+
+#btn-programming:focus {
+    background-color: black;
+    color: white;
+}
+
+#btn-technology:focus {
+    background-color: black;
+    color: white;
+}
+
+#btn-metaverse:focus {
+    background-color: black;
+    color: white;
+}
+
+#btn-design {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 60px;
+    border: 1px solid rgb(223, 223, 223);
+    background: white;
+    cursor: pointer;
+    color: black;
+
+}
+
+#btn-technology {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 60px;
+    border: 1px solid rgb(223, 223, 223);
+    background: white;
+    cursor: pointer;
+    color: black;
+}
+
+#btn-programming {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 60px;
+    border: 1px solid rgb(223, 223, 223);
+    background: white;
+    cursor: pointer;
+    color: black;
+}
+
+#btn-metaverse {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 60px;
+    border: 1px solid rgb(223, 223, 223);
+    background: white;
+    cursor: pointer;
+    color: black;
+}
+
+#btn-blockchain {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 60px;
+    border: 1px solid rgb(223, 223, 223);
+    background: white;
+    cursor: pointer;
+    color: black;
+}
+
+#btn-crypto {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 60px;
+    border: 1px solid rgb(223, 223, 223);
+    background: white;
+    cursor: pointer;
+    color: black;
+}
+
+.tab button.active {
+    background-color: #ccc;
+  }
+
+.topics .design-image {
+    position: relative;
+    top: 40px;
+    left: 210px;
+    width: 60%;
+    padding: 5px;
+}
+
+/* Topic text*/
+
+.design-content-right {
+    display: right;
+    align-items: center;
+    margin-left: 0%;
+    margin-right: 60%;
+
+}
+
+.design-content-right p {
+    color: gray;
+}
+
+.design-content-left {
+    display: right;
+    align-items: center;
+    margin-left: 46%;
+    margin-right: 15%;
+    margin-top: -120px;
+}
+
+.design-content-left p {
+    color: gray;
+}
+
+/* Topic information*/
+
+.avatar {
+    border-radius: 50%;
+    width: 5%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.article-data-spacer {
+    background: gray;
+    border-radius: 50%;
+    height: 5px;
+    width: 5px;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 3px;
+    margin-right: 5px;
+    margin-left: 5px;
+
+}
+
+.article-data {
+    display: inline-block;
+    margin-top: 15px;
+
+}
+
+
+.avatar2 {
+    border-radius: 50%;
+    width: 5%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 195px;
+}
+
+
+/* Profile info */
+
+.avatar3 {
+    position: absolute;
+    top: 50px;
+    left: 76%;
+    border-radius: 50%;
+    width: 4%;
+    display: inline-block;
+
+}
+
+.profile-data {
+    position: absolute;
+    top: 50px;
+    left: 81%;
+    display: inline-block;
+    margin-top: 15px;
+
+
+}
+
+.status {
+
+    color: gray;
+}
+
+#pen-btn {
+    position: absolute;
+    top: 0px;
+    left: 115%;
+    cursor: pointer;
+    color: black;
+
+}
+
+/* Membership */
+
+.premium-content {
+    position: absolute;
+    top: 250px;
+    color: white;
+    left: 76%;
+    background: black;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    text-align: center;
+    flex: 1;
+
+}
+
+.btn-premium {
+    position: absolute;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 60px;
+    border-color: #fff;
+    color: black;
+    background: white;
+    cursor: pointer;
+    top: 385px;
+    left: 83%;
+}
+
+/* Continue Reading */
+
+
+.continue-reading {
+    position: absolute;
+    top: 500px;
+    left: 76%;
+
+}
+
+.continue-reading p {
+    color: gray;
+}
+
+.container-loading {
+    height: 7px;
+    background-color: gray;
+    border-radius: 60px;
+    position: relative;
+}
+
+.container-loading .progress-bar {
+    position: absolute;
+    height: 100%;
+    background-color: black;
+    border-radius: 60px;
+    width: 20%;
+}
+
+#play-animation {
+    animation: progress-animation 5s forwards;
+}
+
+@keyframes progress-animation {
+
+    100% {
+        width: 100%;
+    }
+}
+
+.continue-reading button {
+    position: absolute;
+    margin-top: 10px;
+    border-radius: 60px;
+    color: white;
+    background-color: black;
+    height: 12%;
+    width: 100%;
+    cursor: pointer;
+
+}
+
+/* More Topics  */
+
+.more-topics {
+    position: absolute;
+    top: 1000px;
+    left: 76%;
+    line-height: 50px;
+}
+
+.btn-health:focus {
+    background-color: black;
+    color: white;
+}
+
+.btn-social-media:focus {
+    background-color: black;
+    color: white;
+}
+
+.btn-politic:focus {
+    background-color: black;
+    color: white;
+}
+
+.btn-programming1:focus {
+    background-color: black;
+    color: white;
+}
+
+.btn-productivity:focus {
+    background-color: black;
+    color: white;
+}
+
+.btn-business:focus {
+    background-color: black;
+    color: white;
+}
+
+.btn-money:focus {
+    background-color: black;
+    color: white;
+}
+
+.btn-self-development:focus {
+    background-color: black;
+    color: white;
+}
+
+.btn-health {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 60px;
+    border: 1px solid rgb(223, 223, 223);
+    background: white;
+    cursor: pointer;
+    color: black;
+
+}
+
+.btn-social-media {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 60px;
+    border: 1px solid rgb(223, 223, 223);
+    background: white;
+    cursor: pointer;
+    color: black;
+}
+
+.btn-programming1 {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 60px;
+    border: 1px solid rgb(223, 223, 223);
+    background: white;
+    cursor: pointer;
+    color: black;
+}
+
+.btn-politic {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 60px;
+    border: 1px solid rgb(223, 223, 223);
+    background: white;
+    cursor: pointer;
+    color: black;
+}
+
+.btn-productivity {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 60px;
+    border: 1px solid rgb(223, 223, 223);
+    background: white;
+    cursor: pointer;
+    color: black;
+}
+
+.btn-business {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 60px;
+    border: 1px solid rgb(223, 223, 223);
+    background: white;
+    cursor: pointer;
+    color: black;
+}
+
+.btn-money {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 60px;
+    border: 1px solid rgb(223, 223, 223);
+    background: white;
+    cursor: pointer;
+    color: black;
+}
+
+.btn-self-development {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 60px;
+    border: 1px solid rgb(223, 223, 223);
+    background: white;
+    cursor: pointer;
+    color: black;
+}
+
+.background {
+    background-color: rgb(223, 223, 223);
+    height: 1600px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+.background2 {
+    position: absolute;
+    background-color: white;
+    top: 50px;
+    left: 120px;
+    right: 120px;
+    bottom: 50px
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+

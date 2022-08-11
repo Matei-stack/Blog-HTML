@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+
+    <script src="https://kit.fontawesome.com/f193f2010b.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="C:\Users\matei\Desktop\Project 2\style.css" />
+
+    <script type="text/javascript">
+      const continue1 = () => {
+        const progressBar = document.querySelector('.progress-bar')
+        progressBar.setAttribute('id', 'play-animation')
+      }
+    </script>
+  </head>
+
+  <body>
+    <!--header section-->
+    <div class="background">
+      <div class="background2">
+        <style>
+          body {
+            font-family: Georgia, serif;
+          }
+        </style>
+
+
+        <header class="header">
+          <a href="#" class="logo">
+            <img src="C:\Users\matei\Desktop\Project 2\Images\logo.png" width="70" height="70" alt="TechRead" />
+          </a>
+          <br><br><br>
+          <div class="icons">
+            <a href=""><i class="fa fa-home " id="home-btn"></i></a>
+            <a href="C:\Users\matei\Desktop\Project 2\editor.html"><i class="fa fa-edit " id="edit-btn"></i></a>
+
+          </div>
+          <div class="icons2">
+            <div class="fa fa-gear " id="gear-btn"></div>
+            <div class="fa fa-sign-out " id="sign-btn"></div>
+          </div>
+        </header>
+        <borders class="borders">
+          <div class="horizontal"></div>
+          <div class="vertical"></div>
+          <div class="vertical2"></div>
+        </borders>
+        <!--Search -->
+        <div class="wrap">
+          <div class="search">
+            <input type="text" class="searchbar" name="" placeholder="Search articles you want..." />
+            <button type="submit" class="searchbtn">
+              <i class="fa fa-search fa-2x"></i>
+            </button>
+          </div>
+        </div>
+        <!--Icons-->
+
+
+        <div class="icon">
+          <div class="fa fa-bell fa-2x fa-fw" id="bell-btn"></div>
+          <div class="fa fa-bookmark fa-2x fa-fw" id="bookmark-btn"></div>
+        </div>
+        <!--Article of the day-->
+        <section class="news" id="news">
+
+          <h1 class="heading"> <span>Article of The Day <span>
+                <a href="#" class="btn-view">View More</a>
+          </h1>
+
+          <div class="row">
+
+            <div class="image">
+              <img src="C:\Users\matei\Desktop\Project 2\Images\article of the day.png" alt="" width="493.3">
+            </div>
+
+            <div class="content">
+              <h3>How To Become <br>Super Standout<br> 3D NFT Artist</h3>
+              <p>Calling out for you 3d artist who wanna be a super standout <br>in the market, read this article!</p>
+
+              <br><br><br><br><a href="C:\Users\matei\Desktop\Project 2\articleOfTheDay.html" class="btn-read">Read
+                Now</a><br><br><br>
+
+            </div>
+          </div>
+        </section>
+        <!--Topic Match-->
+        <section class="topics" id="topics">
+          <h1 class="heading1"> <span>Topic Match for You <span> </h1>
+          <div class="tab">
+            <button class="tablinks" id="btn-design" onclick="openArt(event, 'design')">Design</button>
+            <button class="tablinks" id="btn-technology" onclick="openArt(event, 'technology')">Technology</button>
+            <button class="tablinks" id="btn-programming" onclick="openArt(event, 'programming')">Programming</button>
+            <button class="tablinks" id="btn-metaverse" onclick="openArt(event, 'metaverse')">Metaverse</button>
+            <button class="tablinks" id="btn-blockchain" onclick="openArt(event, 'blockchain')">Blockchain</button>
+            <button class="tablinks" id="btn-crypto" onclick="openArt(event, 'crypto')">Crypto</button>
+          </div>
+          <div id="design" class="tabcontent">
+            <div class="design-image">
+              <img src="C:\Users\matei\Desktop\Project 2\Images\design 1.png" alt="" width="450" height="auto">
+
+              <img src="C:\Users\matei\Desktop\Project 2\Images\design2.png" alt="" width="455" height="auto">
+              <div class="design-content-right">
+                <a href="#" class="title"><b>
+                    <h3>How to Create Awesome 3D Modern Nature with Blender</h3>
+                  </b></a>
+                <p>In this article we'll learn how to create modern nature 3D model with blender only.</p>
+              </div>
+              <div class="design-content-left">
+                <a href="#" class="title"><b>
+                    <h3>Avoid This Things When You Using Blender to Make 3D Design</h3>
+                  </b></a>
+                <p>In this article we'll learn about how to create modern 3D with good and properly.</p>
+              </div>
+              <img class="avatar" src="C:\Users\matei\Desktop\Project 2\Images\avatar1.png" alt="Avatar">
+              <div class="article-data">
+                <span>by <b><a href="" class="autor">Budi Supriadi</a></b></span>
+                <span class="article-data-spacer"></span>
+                <span> 7 min read</span>
+              </div>
+              <img class="avatar2" src="C:\Users\matei\Desktop\Project 2\Images\avatar2.png" alt="Avatar">
+              <div class="article-data">
+                <span>by <b><a href="" class="autor">James Priyo</a></b></span>
+                <span class="article-data-spacer"></span>
+                <span> 7 min read</span>
+              </div>
+            </div>
+          </div>
+
+
+          <div id="technology" class="tabcontent">
+            <div class="design-image">
+              <img src="C:\Users\matei\Desktop\Project 2\Images\technology1.jpg" alt="" width="450" height="auto">
+
+              <img src="C:\Users\matei\Desktop\Project 2\Images\technology2.jpg" alt="" width="380" height="auto">
+              <div class="design-content-right">
+                <a href="#" class="title"><b>
+                    <h3>How to Create Awesome 3D Modern Nature with Blender</h3>
+                  </b></a>
+                <p>In this article we'll learn how to create modern nature 3D model with blender only.</p>
+              </div>
+              <div class="design-content-left">
+                <a href="#" class="title"><b>
+                    <h3>Avoid This Things When You Using Blender to Make 3D Design</h3>
+                  </b></a>
+                <p>In this article we'll learn about how to create modern 3D with good and properly.</p>
+              </div>
+              <img class="avatar" src="C:\Users\matei\Desktop\Project 2\Images\avatar1.png" alt="Avatar">
+              <div class="article-data">
+                <span>by <b><a href="" class="autor">Budi Supriadi</a></b></span>
+                <span class="article-data-spacer"></span>
+                <span> 7 min read</span>
+              </div>
+              <img class="avatar2" src="C:\Users\matei\Desktop\Project 2\Images\avatar2.png" alt="Avatar">
+              <div class="article-data">
+                <span>by <b><a href="" class="autor">James Priyo</a></b></span>
+                <span class="article-data-spacer"></span>
+                <span> 7 min read</span>
+              </div>
+            </div>
+          </div>
+
+
+          <div id="programming" class="tabcontent">
+            <div class="design-image">
+              <img src="C:\Users\matei\Desktop\Project 2\Images\programming1.jfif" alt="" width="450" height="auto">
+
+              <img src="C:\Users\matei\Desktop\Project 2\Images\programming2.jfif" alt="" width="485" height="auto">
+              <div class="design-content-right">
+                <a href="#" class="title"><b>
+                    <h3>How to Create Awesome 3D Modern Nature with Blender</h3>
+                  </b></a>
+                <p>In this article we'll learn how to create modern nature 3D model with blender only.</p>
+              </div>
+              <div class="design-content-left">
+                <a href="#" class="title"><b>
+                    <h3>Avoid This Things When You Using Blender to Make 3D Design</h3>
+                  </b></a>
+                <p>In this article we'll learn about how to create modern 3D with good and properly.</p>
+              </div>
+              <img class="avatar" src="C:\Users\matei\Desktop\Project 2\Images\avatar1.png" alt="Avatar">
+              <div class="article-data">
+                <span>by <b><a href="" class="autor">Budi Supriadi</a></b></span>
+                <span class="article-data-spacer"></span>
+                <span> 7 min read</span>
+              </div>
+              <img class="avatar2" src="C:\Users\matei\Desktop\Project 2\Images\avatar2.png" alt="Avatar">
+              <div class="article-data">
+                <span>by <b><a href="" class="autor">James Priyo</a></b></span>
+                <span class="article-data-spacer"></span>
+                <span> 7 min read</span>
+              </div>
+            </div>
+          </div>
+
+
+          <div id="metaverse" class="tabcontent">
+            <div class="design-image">
+              <img src="C:\Users\matei\Desktop\Project 2\Images\metaverse1.jpg" alt="" width="450" height="auto">
+
+              <img src="C:\Users\matei\Desktop\Project 2\Images\metaverse2.webp" alt="" width="500" height="auto">
+              <div class="design-content-right">
+                <a href="#" class="title"><b>
+                    <h3>How to Create Awesome 3D Modern Nature with Blender</h3>
+                  </b></a>
+                <p>In this article we'll learn how to create modern nature 3D model with blender only.</p>
+              </div>
+              <div class="design-content-left">
+                <a href="#" class="title"><b>
+                    <h3>Avoid This Things When You Using Blender to Make 3D Design</h3>
+                  </b></a>
+                <p>In this article we'll learn about how to create modern 3D with good and properly.</p>
+              </div>
+              <img class="avatar" src="C:\Users\matei\Desktop\Project 2\Images\avatar1.png" alt="Avatar">
+              <div class="article-data">
+                <span>by <b><a href="" class="autor">Budi Supriadi</a></b></span>
+                <span class="article-data-spacer"></span>
+                <span> 7 min read</span>
+              </div>
+              <img class="avatar2" src="C:\Users\matei\Desktop\Project 2\Images\avatar2.png" alt="Avatar">
+              <div class="article-data">
+                <span>by <b><a href="" class="autor">James Priyo</a></b></span>
+                <span class="article-data-spacer"></span>
+                <span> 7 min read</span>
+              </div>
+            </div>
+          </div>
+
+
+          <div id="blockchain" class="tabcontent">
+            <div class="design-image">
+              <img src="C:\Users\matei\Desktop\Project 2\Images\blockchain1.jpg" alt="" width="444.5" height="auto">
+
+              <img src="C:\Users\matei\Desktop\Project 2\Images\blockchain2.png" alt="" width="400" height="auto">
+              <div class="design-content-right">
+                <a href="#" class="title"><b>
+                    <h3>How to Create Awesome 3D Modern Nature with Blender</h3>
+                  </b></a>
+                <p>In this article we'll learn how to create modern nature 3D model with blender only.
+                </p>
+              </div>
+              <div class="design-content-left">
+                <a href="#" class="title"><b>
+                    <h3>Avoid This Things When You Using Blender to Make 3D Design</h3>
+                  </b></a>
+                <p>In this article we'll learn about how to create modern 3D with good and properly.</p>
+              </div>
+              <img class="avatar" src="C:\Users\matei\Desktop\Project 2\Images\avatar1.png" alt="Avatar">
+              <div class="article-data">
+                <span>by <b><a href="" class="autor">Budi Supriadi</a></b></span>
+                <span class="article-data-spacer"></span>
+                <span> 7 min read</span>
+              </div>
+              <img class="avatar2" src="C:\Users\matei\Desktop\Project 2\Images\avatar2.png" alt="Avatar">
+              <div class="article-data">
+                <span>by <b><a href="" class="autor">James Priyo</a></b></span>
+                <span class="article-data-spacer"></span>
+                <span> 7 min read</span>
+              </div>
+            </div>
+          </div>
+
+
+          <div id="crypto" class="tabcontent">
+            <div class="design-image">
+              <img src="C:\Users\matei\Desktop\Project 2\Images\bitcoin1.jpg" alt="" width="450" height="auto">
+
+              <img src="C:\Users\matei\Desktop\Project 2\Images\crypto2.webp" alt="" width="450" height="auto">
+              <div class="design-content-right">
+                <a href="#" class="title"><b>
+                    <h3>How to Create Awesome 3D Modern Nature with Blender</h3>
+                  </b></a>
+                <p>In this article we'll learn how to create modern nature 3D model with blender
+                  only.</p>
+              </div>
+              <div class="design-content-left">
+                <a href="#" class="title"><b>
+                    <h3>Avoid This Things When You Using Blender to Make 3D Design</h3>
+                  </b></a>
+                <p>In this article we'll learn about how to create modern 3D with good and properly.
+                </p>
+              </div>
+              <img class="avatar" src="C:\Users\matei\Desktop\Project 2\Images\avatar1.png" alt="Avatar">
+              <div class="article-data">
+                <span>by <b><a href="" class="autor">Budi Supriadi</a></b></span>
+                <span class="article-data-spacer"></span>
+                <span> 7 min read</span>
+              </div>
+              <img class="avatar2" src="C:\Users\matei\Desktop\Project 2\Images\avatar2.png" alt="Avatar">
+              <div class="article-data">
+                <span>by <b><a href="" class="autor">James Priyo</a></b></span>
+                <span class="article-data-spacer"></span>
+                <span> 7 min read</span>
+              </div>
+            </div>
+          </div>
+
+          <script>
+            function openArt(evt, artCat) {
+              var i, tabcontent, tablinks;
+              tabcontent = document.getElementsByClassName("tabcontent");
+              for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+              }
+              tablinks = document.getElementsByClassName("tablinks");
+              for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+              }
+              document.getElementById(artCat).style.display = "block";
+              evt.currentTarget.className += " active";
+
+            }
+            document.getElementById("btn-design").click();
+          </script>
+
+        </section>
+
+
+        <!-- Profile info -->
+
+        <section class="profile-info">
+
+          <img class="avatar3" src="C:\Users\matei\Desktop\Project 2\Images\avatar1.png" alt="Avatar">
+          <div class="profile-data">
+            <span> <b><a href="" class="name">Emir Abiyyu</a></b></span>
+            <br>
+            <span class="status">Member </span>
+            <div class="fa fa-pencil" id="pen-btn"></div>
+          </div>
+        </section>
+        <section class="premium">
+          <div class="premium-content">
+            <h3>Wanna read more? Be a <br>Premium Membership</h3>
+          </div>
+          <a href="#" class="btn-premium">Learn more</a>
+          <borders class="borders">
+            <div class="horizontal2"></div>
+          </borders>
+        </section>
+
+        <!-- Continue reading  -->
+
+        <section class="continue-reading">
+          <h2><br>Continue Reading</h2>
+          <img src="C:\Users\matei\Desktop\Project 2\Images\reading.png" alt="" width="350" height="auto">
+          <div class="reading-content">
+            <a href="#" class="title" onclick="continue1()"><b>
+                <h3>Why You Need Al Robot for Your Office <br>and How it Works</h3>
+              </b></a>
+            <p>In this article we'll learn about how to discuss about<br> robot and future work.</p>
+          </div>
+
+          <div class="container-loading">
+            <div class="progress-bar"></div>
+          </div>
+          <button onclick="continue1()">Continue</button>
+          <borders class="borders">
+            <div class="horizontal3"></div>
+          </borders>
+        </section>
+
+        <!-- More Topics  -->
+
+        <section class="more-topics">
+
+          <h2 class="interesting-topic"> <span>More Interesting Topic <span> </h2>
+          <div class="interesting-topic-buttons">
+            <a href="#" class="btn-health">Health</a>
+            <a href="#" class="btn-social-media">Social Media</a>
+            <a href="#" class="btn-politic">Politic</a>
+            <br>
+            <a href="#" class="btn-productivity">Productivity</a>
+            <a href="#" class="btn-business">Business</a>
+            <a href="#" class="btn-money">Money</a>
+            <br>
+            <a href="#" class="btn-self-development">Self Development</a>
+            <a href="#" class="btn-programming1">Programming</a>
+          </div>
+
+        </section>
+
+      </div>
+    </div>
+
+  </body>
+
+</html>

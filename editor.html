@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Editor</title>
+
+    <script
+      src="https://kit.fontawesome.com/f193f2010b.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="C:\Users\matei\Desktop\Project 2\style-editor.css"
+    />
+  </head>
+
+  <body>
+    <div class="background1">
+      <div class="background2">
+        <header class="header" id="header">
+          <a href="C:\Users\matei\Desktop\Project 2\index.html">
+            <h3 class="logo">TechRead</h3>
+          </a>
+          <div class="icons-right">
+            <i
+              class="fa fa-file-text-o fa-2x"
+              id="btn-file"
+              aria-hidden="true"
+            ></i>
+            <br />
+            <i class="fa fa-hdd-o fa-2x" id="btn-hdd" aria-hidden="true"></i>
+            <br />
+            <i class="fa-solid fa-chart-simple fa-2x" id="btn-file"></i>
+            <br />
+            <i
+              class="fa fa-plus-circle fa-2x"
+              id="btn-plus"
+              aria-hidden="true"
+            ></i>
+          </div>
+          <img
+            class="avatar"
+            src="C:\Users\matei\Desktop\Project 2\Images\avatar1.png"
+            alt="Avatar"
+          />
+          <!-- Publish button -->
+
+          <div class="publish">
+            <h3>Publish</h3>
+          </div>
+        </header>
+        <div class="background3">
+          <!-- Language menu -->
+          <button class="lang-menu" id="language">
+            <div classs="selected-lang">
+              <h3>English⮟</h3>
+            </div>
+            <ul>
+              <li>
+                <a href="#" class="de">German</a>
+              </li>
+              <li>
+                <a href="#" class="en">English</a>
+              </li>
+              <li>
+                <a href="#" class="fr">French</a>
+              </li>
+              <li>
+                <a href="#" class="ae">Arabic</a>
+              </li>
+            </ul>
+          </button>
+
+          <!-- Import button -->
+
+          <div class="import">
+            <i class="fa-solid fa-download" style="font-size: 20px"></i>
+            <h3>Import</h3>
+          </div>
+
+          <div class="background4">
+            <!-- Tabs -->
+            <div class="tab">
+              <button class="tablinks" onclick="openAction(event, 'Edit')">
+                Edit
+              </button>
+              <button class="tablinks" onclick="openAction(event, 'Preview')">
+                Preview
+              </button>
+            </div>
+            <div id="Edit" class="tabcontent">
+              <div class="title-add">
+                <input
+                  type="text"
+                  class="art-title-add"
+                  name=""
+                  placeholder="Enter article title..."
+                />
+              </div>
+              <div class="body-add">
+                <textarea
+                  rows="14"
+                  cols="70"
+                  class="art-body-add"
+                  name=""
+                  placeholder="Enter article body..."
+                ></textarea>
+              </div>
+              <div class="summary-add">
+                <h3>Summary</h3>
+                <textarea
+                  rows="4"
+                  cols="70"
+                  class="art-body-add"
+                  name=""
+                  placeholder="Enter article summary..."
+                ></textarea>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,209 @@
+/* Article of The Day */
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Background */
+.background {
+    background-color: rgba(250, 187, 4, 255);
+    height: 3200px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+.background2 {
+    position: absolute;
+    background-color: rgba(253, 248, 235, 255);
+    top: 200px;
+    left: 200px;
+    right: 200px;
+    bottom: 0px;
+}
+
+.punct-border {
+    position: absolute;
+    top: 5%;
+    left: 8%;
+    right: 8%;
+    bottom: 30%;
+    border-radius: 60px;
+    border: 3px solid rgba(250, 200, 51, 255);
+
+}
+
+/* Header  */
+
+/* Menu  */
+.logo {
+    left: 50px;
+    position: absolute;
+    top: 30px;
+}
+
+.menu {
+    position: relative;
+    top: 60px;
+    left: 500px;
+
+}
+
+.btn-Home:focus {
+    padding: 10px 15px;
+    border: 1px solid rgb(0, 0, 0);
+    border-right: white;
+    border-top: white;
+    border-left: white;
+}
+
+.btn-ArtODay:focus {
+    padding: 10px 15px;
+    border: 1px solid rgb(0, 0, 0);
+    border-right: white;
+    border-top: white;
+    border-left: white;
+}
+
+.btn-Review:focus {
+    padding: 10px 15px;
+    border: 1px solid rgb(0, 0, 0);
+    border-right: white;
+    border-top: white;
+    border-left: white;
+}
+
+.btn-Unboxing:focus {
+    padding: 10px 15px;
+    border: 1px solid rgb(0, 0, 0);
+    border-right: white;
+    border-top: white;
+    border-left: white;
+}
+
+.btn-Giveaway:focus {
+    padding: 10px 15px;
+    border: 1px solid rgb(0, 0, 0);
+    border-right: white;
+    border-top: white;
+    border-left: white;
+}
+
+/* Search Bar Art  */
+
+.wrap-Art {
+    position: absolute;
+    width: 20%;
+    top: 80px;
+    left: 1100px;
+    color: gray;
+}
+
+.search-Art {
+    width: 40%;
+    position: absolute;
+    top: -40px;
+}
+
+.searchbar-Art {
+    float: left;
+    width: 150%;
+    max-width: 500px;
+    background: rgba(253, 248, 235, 255);
+    display: flex;
+    align-items: center;
+    border-radius: 0px;
+    padding: 21.4px 25px;
+    border: 1px solid rgb(0, 0, 0);
+    border-right: white;
+    border-top: white;
+    border-left: white;
+
+
+}
+
+.searchbtn-Art {
+    position: absolute;
+    border-radius: 0px;
+    width: 60px;
+    height: 59px;
+    border: 1px solid black;
+    background: rgba(253, 248, 235, 255);
+    cursor: pointer;
+    border-left: white;
+    border-right: white;
+    border-top: white;
+    color: gray;
+
+}
+
+/* Title  */
+
+.Title-container {
+    position: absolute;
+    left:25%;
+    top:7%;
+}
+
+.title-img{
+    position:absolute;
+    top:200px;
+    width:1300px;
+}
+
+/* Social links */
+
+.social-links{
+    position: relative;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 2rem;
+    margin-left: 230px;
+    display: grid;
+    align-items: space-evely;
+    top: 970px;
+}
+
+.art-content{
+    position: absolute;
+    top: 970px;
+    text-align: left;
+    left:25%;
+    right:35%;
+}
+
+.content-img{
+    padding-top:30px;
+    width:600px;
+}
+
+.content-titles{
+    display: grid;
+    align-items: space-evely;
+    position: absolute;
+    top: 990px;
+    right:15%;
+    cursor:pointer;
+    line-height: 25px;
+}
+
+.btn-intro:focus{
+    font-weight:bold;
+}
+.btn-design:focus{
+    font-weight:bold;
+}
+.btn-wallet:focus{
+    font-weight:bold;
+}
+.btn-audience:focus{
+    font-weight:bold;
+}
+.btn-list:focus{
+    font-weight:bold;
+}
